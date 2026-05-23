@@ -1,2 +1,4 @@
 # ignore python module
 /pyvir/
+/project_test/
+/*_test/
