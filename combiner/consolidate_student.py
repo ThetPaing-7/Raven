@@ -70,27 +70,27 @@ def check_header(folder_path):
 
     # Getting the header and name of rest of the file
 
-    remmaing_files = {
-        "file_name" : [],
-        "header" : []
-    }
+    remmaing_files = []
 
     for template in templates[1:]:
         with open(template, "r") as file:
             reader = csv.reader(file, delimiter=",")
             # number of row would like to take
             for i, row in enumerate(reader):
-                remmaing_files["header"].append(row)
-                remmaing_files["file_name"].append(get_file_name(file))
+                remmaing_files.append({"file_name": get_file_name(file), "header": row})
                 if i == 0:
                     break
 
-    # Comparing master_header with reaming header
-    for header in remmaing_files["header"]:
-        if header != main_file["header"]:
-            print("Need to check")
+    #Comparing master_header with reaming header
+    for temp in remmaing_files:
+        if temp['header'] != main_file['header']:
+            print(f'{temp['file_name']} >> Need to check')
         else:
-            print("same header")
+            print(f'{temp['file_name']} >> Same Header')
+
+
+
+
 
 
 # check blank row and remove
