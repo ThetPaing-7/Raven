@@ -2,3 +2,5 @@
 /pyvir/
 /project_test/
 /*_test/
+/__pycache__/
+/output/
