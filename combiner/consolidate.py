@@ -1,8 +1,9 @@
 import csv
 from pathlib import Path
 import pandas as panda
+from helper import read_file
 
-def main(folder_path, extension,output_file):
+def main(folder_path, extension = ".xlsx",output_file):
 
     folder = Path(folder_path)
     files = [
@@ -17,13 +18,7 @@ def main(folder_path, extension,output_file):
     for file in files:
         print(f"processing {file.name}")
 
-        # for csv file
-        if file.suffix.lower() == ".csv":
-            data_frame = panda.read_csv(file)
-        
-        if file.suffix.lower() in [".xlsx", ".xls"]:
-            data_frame = panda.read_excel(file)
-
+        data_frame = read_file(file)
         
         data_frame.insert(0, "source_file", file.name)
 
@@ -111,5 +106,4 @@ def check_header(folder_path, extension):
 
 if __name__ == "__main__":
     folder = get_folder()
-    main(folder,"xlsx","Test")
     
