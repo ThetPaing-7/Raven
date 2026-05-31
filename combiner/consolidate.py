@@ -1,17 +1,17 @@
 import csv
 from pathlib import Path
 import pandas as panda
-from helper import read_file
+from helper import read_file, get_folder, get_file_name
 
-def main(folder_path, extension = ".xlsx",output_file):
+
+def combine_files(folder_path, output_file, extension=".xlsx"):
 
     folder = Path(folder_path)
     files = [
         file
         for file in folder.glob(f"*.{extension}")
-        if file.name != f'{output_file}.csv'
+        if file.name != f"{output_file}.csv"
     ]
-    
 
     all_dataframes = []
 
@@ -19,91 +19,67 @@ def main(folder_path, extension = ".xlsx",output_file):
         print(f"processing {file.name}")
 
         data_frame = read_file(file)
-        
+
         data_frame.insert(0, "source_file", file.name)
 
         all_dataframes.append(data_frame)
 
     combine_data_frame = panda.concat(all_dataframes, ignore_index=True)
 
-    combine_data_frame.to_csv(f'{output_file}.csv', index = False)
+    combine_data_frame.to_csv(f"{output_file}.csv", index=False)
 
     print("File Combine Successfully")
 
 
-
-# Get folder from user
-# check if user give a floder
-# files in folder
-def get_folder():
-    while True:
-        folder = input("folder:").strip()
-
-        path_object = Path(folder)
-        # user give blank folder 
-        if len(folder) < 1:
-            print("Please enter a valid folder path")
-        # Is Input is a folder
-        elif path_object.is_dir() and path_object.exists():
-            print("It is a folder")
-            return folder
-        elif path_object.is_file():
-            print("It is a file, not a folder \n Please try again")
-        else:
-            print("Please enter valid folder path")
-
-
-# get file name and join by file extension
-def get_file_name(master_file):
-    return f'{Path(master_file.name).stem}{Path(master_file.name).suffix}'
-
-
 # Check header
-def check_header(folder_path, extension):
+def check_header(folder_path, master_file, number=2, extension="xlsx"):
+
     folder = Path(folder_path)
 
-    #result
     header_check_result = []
 
+    # Get all files
+    templates = [file for file in folder.glob(f"*.{extension}")]
 
-    # Take only the desire file type
-    templates = [file for file in folder.glob(f'*.{extension}')]
+    # Find master file
+    project_template = list(filter(lambda f: f.name == master_file, templates))
 
-    # To store master file name and header
-    main_file = {}
+    if not project_template:
+        raise FileNotFoundError("Master file not found")
 
-    # choose a master file header to check with other file header
-    with open(templates[0], "r") as master_file:
-        reader = csv.reader(master_file, delimiter=",")
+    # Read master file
+    master_df = read_file(project_template[0], None)
+    master_file_name = get_file_name(project_template[0])
+    # Take first N rows as header template
+    master_header = master_df.head(number).values.tolist()
+    master = {"filename": master_file_name, "header": master_header}
 
-        # Getting the master file name and join with extension
-        main_file["master_file_name"] = get_file_name(master_file)
-        main_file["header"] = next(reader)
-        print("====================================")
+    print("MASTER HEADER")
+    print(master)
+    print("========================")
 
-    # Getting the header and name of rest of the file
+    # User file
+    user_files = []
 
-    remmaing_files = []
+    # Get user files
+    user_templates = list(filter(lambda f: f.name != master_file, templates))
 
-    for template in templates[1:]:
-        with open(template, "r") as file:
-            reader = csv.reader(file, delimiter=",")
-            # number of row would like to take
-            for i, row in enumerate(reader):
-                remmaing_files.append({"file_name": get_file_name(file), "header": row})
-                if i == 0:
-                    break
+    for template in user_templates:
+        df = read_file(template, None)
+        filename = get_file_name(template)
+        user_header = df.head(number).values.tolist()
+        user_files.append({"filename": filename, "header": user_header})
 
-    #Comparing master_header with reaming header
-    for temp in remmaing_files:
-        if temp['header'] != main_file['header']:
-            header_check_result.append(f'{temp["file_name"]} >> Need to check')
+    print(user_files)
+
+    # Comparing file
+    for file in user_files:
+        if master["header"] == file["header"]:
+            print("Header Match")
         else:
-            header_check_result.append(f'{temp["file_name"]} >> Same Header')
-
-    return header_check_result
+            print("Need to check")
 
 
 if __name__ == "__main__":
     folder = get_folder()
-    
+    check_header(folder, "students.file3.csv", number=2, extension="csv")
