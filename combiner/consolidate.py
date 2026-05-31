@@ -1,7 +1,8 @@
 import csv
 from pathlib import Path
 import pandas as panda
-from helper import read_file, get_folder, get_file_name
+from file_helper import read_file, get_folder, get_file_name
+from compare_helper import compare_two_lists, to_data_frame
 
 
 def combine_files(folder_path, output_file, extension=".xlsx"):
@@ -54,9 +55,9 @@ def check_header(folder_path, master_file, number=2, extension="xlsx"):
     master_header = master_df.head(number).values.tolist()
     master = {"filename": master_file_name, "header": master_header}
 
-    print("MASTER HEADER")
-    print(master)
-    print("========================")
+    #   print("MASTER HEADER")
+    # print(master)
+    # print("========================")
 
     # User file
     user_files = []
@@ -70,16 +71,23 @@ def check_header(folder_path, master_file, number=2, extension="xlsx"):
         user_header = df.head(number).values.tolist()
         user_files.append({"filename": filename, "header": user_header})
 
-    print(user_files)
+    # print(user_files)
 
-    # Comparing file
+    #Comparing file
     for file in user_files:
-        if master["header"] == file["header"]:
-            print("Header Match")
-        else:
-            print("Need to check")
 
+        if compare_two_lists(master["header"],file["header"]):
+            print(f'\033[92m{file["filename"]} Header Match\033[0m')
+        else:
+            master_frame = to_data_frame(master["header"],master["filename"])
+            file_frame = to_data_frame(file["header"],file["filename"])
+            print(master_frame)
+            print(file_frame)
+            # comparison  = master_frame.compare(file_frame,result_names=("project_file","user_file"),keep_equal=True)
+            print(f'\033[91m{file["filename"]} Need to Check\033[0m')
+            # print(comparison)
+    
 
 if __name__ == "__main__":
     folder = get_folder()
-    check_header(folder, "students.file3.csv", number=2, extension="csv")
+    check_header(folder, "Fake_Data4.xlsx", number=1, extension="xlsx")

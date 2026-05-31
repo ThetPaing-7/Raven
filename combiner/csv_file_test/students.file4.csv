@@ -1,4 +1,4 @@
-Student ID,First Name,Last Name,Grade,Class List
+Student ID,First Name,LName,Grade,ClassList
 STU0201,Emma,Smith,11,"Science, Geography, Art"
 STU0202,Emma,Moore,9,"Art, English, Math"
 STU0203,Liam,Williams,10,"Science, Art, Math"

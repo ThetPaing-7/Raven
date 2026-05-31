@@ -40,3 +40,4 @@ def get_folder():
 # get file name and join by file extension
 def get_file_name(master_file):
     return f"{Path(master_file.name).stem}{Path(master_file.name).suffix}"
+
