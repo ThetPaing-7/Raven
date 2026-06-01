@@ -3,17 +3,34 @@ from pathlib import Path
 
 
 # Read csv, excel files by extension
-def read_file(file, header_include):
+def read_file(file, header_include,sheet_name=None):
 
     extension = file.suffix.lower()
 
     if extension == ".csv":
-        data_frame = pd.read_csv(file, header=header_include)
+        return pd.read_csv(file, header=header_include)
 
-    if extension in [".xlsx", ".xls"]:
-        data_frame = pd.read_excel(file, header=header_include)
 
-    return data_frame
+    elif extension in [".xlsx", ".xls"]:
+
+        # All sheet
+        if sheet_name == "all":
+            return pd.read_excel(
+                file,
+                sheet_name=None,
+                header=header_include
+            )
+        
+        # one or selected sheets
+        return pd.read_excel(
+            file,
+            sheet_name=sheet_name,
+            header=header_include
+        )
+
+    else:
+        return f"Unsportted file type: {extension}"
+
 
 
 # Get folder from user
