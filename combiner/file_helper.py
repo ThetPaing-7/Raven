@@ -1,37 +1,22 @@
 import pandas as pd
 from pathlib import Path
 
-def read_file(
-    file_path,
-    sheet_name=0,
-    header_include=0
-):
+
+def read_file(file_path, sheet_name=0, header_include=0):
     extension = file_path.suffix.lower()
 
     if extension == ".csv":
-        return pd.read_csv(
-            file_path,
-            header=header_include
-        )
+        return pd.read_csv(file_path, header=header_include)
 
     if extension in [".xlsx", ".xls"]:
 
         if sheet_name == "all":
-            return pd.read_excel(
-                file_path,
-                sheet_name=None,
-                header=header_include
-            )
+            return pd.read_excel(file_path, sheet_name=None, header=header_include)
 
-        return pd.read_excel(
-            file_path,
-            sheet_name=sheet_name,
-            header=header_include
-        )
+        return pd.read_excel(file_path, sheet_name=sheet_name, header=header_include)
 
-    raise ValueError(
-        f"Unsupported file type: {extension}"
-    )
+    raise ValueError(f"Unsupported file type: {extension}")
+
 
 # Get folder from user
 # check if user give a floder

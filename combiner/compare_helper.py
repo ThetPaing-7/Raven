@@ -14,24 +14,14 @@ def to_data_frame(header, filename):
     return master_frame
 
 
-
 def get_header(file_path, rows=2, sheet_name=None):
 
-    data = read_file(
-        file_path,
-        sheet_name=sheet_name,
-        header_include=None
-    )
+    data = read_file(file_path, sheet_name=sheet_name, header_include=None)
 
     # CSV or single-sheet Excel
     if isinstance(data, pd.DataFrame):
 
-        return (
-            data.head(rows)
-            .fillna("")
-            .values
-            .tolist()
-        )
+        return data.head(rows).fillna("").values.tolist()
 
     # Multi-sheet Excel
     if isinstance(data, dict):
@@ -40,18 +30,12 @@ def get_header(file_path, rows=2, sheet_name=None):
 
         for sheet, df in data.items():
 
-            headers[sheet] = (
-                df.head(rows)
-                .fillna("")
-                .values
-                .tolist()
-            )
+            headers[sheet] = df.head(rows).fillna("").values.tolist()
 
         return headers
 
-    raise TypeError(
-        f"Unsupported type: {type(data)}"
-    )
+    raise TypeError(f"Unsupported type: {type(data)}")
+
 
 def flatten(data):
     return [item for row in data for item in row]
@@ -61,21 +45,11 @@ def check_header_counts(project_file, user_file):
     return len(project_file) == len(user_file)
 
 
-def show_columns_difference(
-    master_columns,
-    user_columns
-):
+def show_columns_difference(master_columns, user_columns):
 
-    max_length = max(
-        len(master_columns),
-        len(user_columns)
-    )
+    max_length = max(len(master_columns), len(user_columns))
 
-    print(
-        f"{'Pos':<5}"
-        f"{'Master':<30}"
-        f"{'User':<30}"
-    )
+    print(f"{'Pos':<5}" f"{'Master':<30}" f"{'User':<30}")
 
     print("-" * 65)
 
@@ -84,22 +58,18 @@ def show_columns_difference(
         master_value = (
             str(master_columns[index])
             if index < len(master_columns)
-            else "MISSING"
+            else "\x1b[31mExtra\x1b[0m"
         )
 
         user_value = (
             str(user_columns[index])
             if index < len(user_columns)
-            else "EXTRA"
+            else "\x1b[31mMissing\x11B[0m"
         )
 
         if master_value != user_value:
 
-            print(
-                f"{index + 1:<5}"
-                f"{master_value:<30}"
-                f"{user_value:<30}"
-            )
+            print(f"{index + 1:<5}" f"{master_value:<30}" f"{user_value:<30}")
 
 
 def compare_headers(master_header, user_header):
