@@ -52,6 +52,7 @@ def get_header(file_path, rows=2, sheet_name=None):
     raise TypeError(
         f"Unsupported type: {type(data)}"
     )
+
 def flatten(data):
     return [item for row in data for item in row]
 

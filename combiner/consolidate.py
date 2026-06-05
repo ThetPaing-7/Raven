@@ -209,4 +209,4 @@ def check_header(
 
 if __name__ == "__main__":
     folder = get_folder()
-    check_header(folder,"Fake_Data3.xlsx",rows=1)
+    check_header(folder,"MOCK_DATA.xlsx")
