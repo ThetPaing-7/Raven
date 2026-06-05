@@ -1,4 +1,5 @@
 import pandas as pd
+from file_helper import read_file
 
 
 # compare given two lists
@@ -13,36 +14,99 @@ def to_data_frame(header, filename):
     return master_frame
 
 
-def flatern_to_list(master_lits):
-    return [item for newlist in master_lits for item in newlist]
+
+def get_header(file_path, rows=2, sheet_name=None):
+
+    data = read_file(
+        file_path,
+        sheet_name=sheet_name,
+        header_include=None
+    )
+
+    # CSV or single-sheet Excel
+    if isinstance(data, pd.DataFrame):
+
+        return (
+            data.head(rows)
+            .fillna("")
+            .values
+            .tolist()
+        )
+
+    # Multi-sheet Excel
+    if isinstance(data, dict):
+
+        headers = {}
+
+        for sheet, df in data.items():
+
+            headers[sheet] = (
+                df.head(rows)
+                .fillna("")
+                .values
+                .tolist()
+            )
+
+        return headers
+
+    raise TypeError(
+        f"Unsupported type: {type(data)}"
+    )
+def flatten(data):
+    return [item for row in data for item in row]
 
 
 def check_header_counts(project_file, user_file):
     return len(project_file) == len(user_file)
 
 
-def show_columns_difference(project_file, user_file):
+def show_columns_difference(
+    master_columns,
+    user_columns
+):
 
-    loop = project_file if len(project_file) > len(user_file) else user_file
+    max_length = max(
+        len(master_columns),
+        len(user_columns)
+    )
 
-    for index, column in enumerate(loop):
+    print(
+        f"{'Pos':<5}"
+        f"{'Master':<30}"
+        f"{'User':<30}"
+    )
 
-        try:
-            user_column = user_file[index]
-            project_column = project_file[index]
+    print("-" * 65)
 
-            if project_column == user_column:
-                print(f"{project_column:<15} | {user_column:<15}")
+    for index in range(max_length):
 
-            else:
-                print(f"{project_column:<15} | {user_column:<15}  <-- Different")
+        master_value = (
+            str(master_columns[index])
+            if index < len(master_columns)
+            else "MISSING"
+        )
 
-        except IndexError:
-            if len(project_file) > len(user_file):
-                print(
-                    f"{project_column:<15} | \033[91m{"Missing"}\033[0m"
-                )
-            elif len(project_file) < len(user_file):
-                print(
-                    f"\033[91m{"Extra":<15}\033[0m | {user_column}"
-                )
+        user_value = (
+            str(user_columns[index])
+            if index < len(user_columns)
+            else "EXTRA"
+        )
+
+        if master_value != user_value:
+
+            print(
+                f"{index + 1:<5}"
+                f"{master_value:<30}"
+                f"{user_value:<30}"
+            )
+
+
+def compare_headers(master_header, user_header):
+
+    master_flat = flatten(master_header)
+    user_flat = flatten(user_header)
+
+    if len(master_flat) != len(user_flat):
+        return False
+
+    return master_header == user_header

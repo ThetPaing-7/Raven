@@ -1,0 +1,431 @@
+source_file,Student ID,First Name,Last Name,Mark,ClassList,Grade,Class List
+students_file1.csv,STU10001,Michael,White,11.0,Geometry; World History; Biology; Algebra II,,
+students_file1.csv,STU10002,Avery,Rodriguez,9.0,Calculus; English 101; Algebra II,,
+students_file1.csv,STU10003,Mateo,Miller,10.0,Calculus; Biology; Geometry; World History,,
+students_file1.csv,STU10004,Levi,Lee,12.0,Chemistry; Algebra II; Biology; World History,,
+students_file1.csv,STU10005,Emma,Carter,10.0,Chemistry; Algebra II; Geometry,,
+students_file1.csv,STU10006,Sophia,Rodriguez,11.0,AP Lit; Geometry; Biology; Calculus,,
+students_file1.csv,STU10007,Benjamin,Robinson,11.0,Calculus; World History; English 101; Algebra II,,
+students_file1.csv,STU10008,Theodore,Young,10.0,English 101; Biology; Chemistry,,
+students_file1.csv,STU10009,Aria,White,9.0,Geometry; World History; AP Lit; Calculus,,
+students_file1.csv,STU10010,Elizabeth,Jones,11.0,Geometry; Algebra II; World History,,
+students_file1.csv,STU10011,Ethan,Thomas,10.0,Algebra II; Calculus; Geometry; World History,,
+students_file1.csv,STU10012,Jackson,Flores,10.0,Geometry; English 101; Chemistry,,
+students_file1.csv,STU10013,Theodore,Davis,11.0,English 101; Calculus; AP Lit,,
+students_file1.csv,STU10014,Charlotte,Thomas,11.0,English 101; Biology; World History,,
+students_file1.csv,STU10015,Sofia,Baker,9.0,AP Lit; Chemistry; World History,,
+students_file1.csv,STU10016,Sebastian,White,10.0,Geometry; World History; AP Lit,,
+students_file1.csv,STU10017,Benjamin,Perez,11.0,Biology; Algebra II; Chemistry; World History,,
+students_file1.csv,STU10018,Henry,Thomas,11.0,Biology; World History; Geometry,,
+students_file1.csv,STU10019,Logan,Wilson,9.0,English 101; Algebra II; Chemistry,,
+students_file1.csv,STU10020,Levi,Garcia,11.0,Biology; English 101; Calculus,,
+students_file1.csv,STU10021,Daniel,Lopez,9.0,Chemistry; AP Lit; English 101; World History,,
+students_file1.csv,STU10022,Owen,Torres,9.0,World History; English 101; AP Lit; Chemistry,,
+students_file1.csv,STU10023,Michael,White,9.0,Geometry; AP Lit; Biology,,
+students_file1.csv,STU10024,Sebastian,Hernandez,10.0,World History; Geometry; AP Lit,,
+students_file1.csv,STU10025,Amelia,Flores,9.0,English 101; Chemistry; Geometry; World History,,
+students_file1.csv,STU10026,Theodore,Perez,9.0,World History; Calculus; Biology; AP Lit,,
+students_file1.csv,STU10027,Daniel,Davis,11.0,Biology; AP Lit; World History; Algebra II,,
+students_file1.csv,STU10028,Sofia,Flores,12.0,Geometry; AP Lit; English 101; Biology,,
+students_file1.csv,STU10029,Aiden,Harris,9.0,Algebra II; World History; English 101; Chemistry,,
+students_file1.csv,STU10030,Evelyn,Wright,12.0,AP Lit; Geometry; Biology,,
+students_file1.csv,STU10031,Olivia,Carter,10.0,AP Lit; Geometry; Chemistry; Biology,,
+students_file1.csv,STU10032,Alexander,Wright,10.0,Chemistry; Algebra II; World History; Calculus,,
+students_file1.csv,STU10033,Madison,Lee,9.0,Calculus; AP Lit; World History,,
+students_file1.csv,STU10034,Owen,Baker,12.0,World History; AP Lit; Geometry,,
+students_file1.csv,STU10035,Gianna,Walker,11.0,Geometry; World History; Chemistry; Algebra II,,
+students_file1.csv,STU10036,Gianna,Miller,10.0,Biology; AP Lit; Algebra II,,
+students_file1.csv,STU10037,Emma,Jones,12.0,English 101; World History; AP Lit,,
+students_file1.csv,STU10038,Evelyn,Carter,11.0,Algebra II; Biology; Geometry,,
+students_file1.csv,STU10039,Emma,Gonzalez,9.0,AP Lit; Biology; Geometry; World History,,
+students_file1.csv,STU10040,Henry,Hernandez,12.0,Calculus; Algebra II; Chemistry,,
+students_file1.csv,STU10041,Ava,Ramirez,12.0,World History; Biology; Geometry; Chemistry,,
+students_file1.csv,STU10042,Theodore,Flores,11.0,AP Lit; World History; Biology,,
+students_file1.csv,STU10043,Mason,Flores,9.0,World History; AP Lit; Chemistry,,
+students_file1.csv,STU10044,Michael,Mitchell,11.0,AP Lit; English 101; Biology; Chemistry,,
+students_file1.csv,STU10045,Jackson,Lopez,10.0,English 101; Chemistry; Geometry; Calculus,,
+students_file1.csv,STU10046,James,Harris,11.0,Calculus; AP Lit; English 101; Biology,,
+students_file1.csv,STU10047,Oliver,White,11.0,Chemistry; Biology; Calculus,,
+students_file1.csv,STU10048,Elizabeth,Garcia,11.0,Algebra II; AP Lit; Biology,,
+students_file1.csv,STU10049,Jack,Flores,12.0,Chemistry; AP Lit; Geometry; Algebra II,,
+students_file1.csv,STU10050,Chloe,Torres,12.0,English 101; Calculus; Biology,,
+students_file1.csv,STU10051,Gianna,Nguyen,10.0,World History; Chemistry; Geometry; Algebra II,,
+students_file1.csv,STU10052,Avery,Nguyen,12.0,Biology; Geometry; Calculus,,
+students_file1.csv,STU10053,Evelyn,Torres,11.0,Calculus; Algebra II; World History; Chemistry,,
+students_file1.csv,STU10054,Mason,Green,9.0,English 101; AP Lit; Chemistry,,
+students_file1.csv,STU10055,Henry,Thompson,12.0,Geometry; AP Lit; English 101; World History,,
+students_file1.csv,STU10056,Sebastian,White,10.0,Chemistry; English 101; Geometry; Biology,,
+students_file1.csv,STU10057,Jack,Jones,9.0,Geometry; AP Lit; Biology; Chemistry,,
+students_file1.csv,STU10058,Harper,Taylor,11.0,English 101; Chemistry; Calculus,,
+students_file1.csv,STU10059,Theodore,Lee,9.0,World History; AP Lit; Chemistry,,
+students_file1.csv,STU10060,Aria,Perez,11.0,Biology; Geometry; AP Lit,,
+students_file1.csv,STU10061,Michael,Martin,10.0,Algebra II; Calculus; Geometry; World History,,
+students_file1.csv,STU10062,Chloe,Ramirez,12.0,Calculus; AP Lit; Biology; Geometry,,
+students_file1.csv,STU10063,Elijah,White,11.0,World History; Geometry; AP Lit,,
+students_file1.csv,STU10064,Gianna,Brown,11.0,English 101; Geometry; Biology; World History,,
+students_file1.csv,STU10065,Avery,Thomas,11.0,Calculus; Chemistry; English 101; Algebra II,,
+students_file1.csv,STU10066,Isabella,Miller,10.0,AP Lit; Algebra II; Geometry,,
+students_file1.csv,STU10067,Sofia,Davis,10.0,AP Lit; Biology; Algebra II; World History,,
+students_file1.csv,STU10068,Mia,Thomas,9.0,English 101; World History; Biology,,
+students_file1.csv,STU10069,Benjamin,Hill,9.0,Algebra II; Geometry; English 101; Chemistry,,
+students_file1.csv,STU10070,William,Carter,12.0,Biology; World History; English 101,,
+students_file1.csv,STU10071,Evelyn,Wright,9.0,AP Lit; Chemistry; World History; Calculus,,
+students_file1.csv,STU10072,Jacob,Jones,9.0,English 101; Geometry; AP Lit; Algebra II,,
+students_file1.csv,STU10073,Chloe,Perez,11.0,Calculus; AP Lit; Algebra II,,
+students_file1.csv,STU10074,Charlotte,Thomas,12.0,Chemistry; Biology; AP Lit; English 101,,
+students_file1.csv,STU10075,Sophia,Hernandez,12.0,Calculus; World History; English 101; Biology,,
+students_file1.csv,STU10076,Aiden,Mitchell,10.0,Algebra II; Biology; Geometry; World History,,
+students_file1.csv,STU10077,Aiden,Young,10.0,AP Lit; Geometry; Biology; Chemistry,,
+students_file1.csv,STU10078,Avery,Nguyen,12.0,Algebra II; Chemistry; World History; English 101,,
+students_file1.csv,STU10079,Gianna,Johnson,10.0,World History; Geometry; English 101,,
+students_file1.csv,STU10080,Jack,Hernandez,10.0,Chemistry; AP Lit; Calculus; Algebra II,,
+students_file1.csv,STU10081,Jack,Allen,12.0,Algebra II; AP Lit; English 101,,
+students_file1.csv,STU10082,Scarlett,Hernandez,10.0,Chemistry; Algebra II; English 101; AP Lit,,
+students_file1.csv,STU10083,Theodore,Robinson,9.0,AP Lit; Algebra II; English 101; Geometry,,
+students_file1.csv,STU10084,Elijah,Baker,9.0,Geometry; AP Lit; Biology; English 101,,
+students_file1.csv,STU10085,Chloe,Perez,10.0,Calculus; World History; Chemistry,,
+students_file1.csv,STU10086,Emma,Torres,11.0,Algebra II; World History; Chemistry; Geometry,,
+students_file1.csv,STU10087,Emma,Martin,9.0,Chemistry; Algebra II; Biology; English 101,,
+students_file1.csv,STU10088,Michael,Robinson,11.0,AP Lit; Geometry; English 101; Calculus,,
+students_file1.csv,STU10089,James,Jones,10.0,AP Lit; Biology; World History; English 101,,
+students_file1.csv,STU10090,Scarlett,Davis,10.0,Chemistry; Algebra II; Biology,,
+students_file1.csv,STU10091,Sophia,Flores,10.0,AP Lit; Chemistry; Geometry,,
+students_file1.csv,STU10092,Lucas,Harris,9.0,Algebra II; Biology; World History; Geometry,,
+students_file1.csv,STU10093,Amelia,Miller,10.0,World History; Chemistry; AP Lit,,
+students_file1.csv,STU10094,Chloe,Lee,9.0,World History; Geometry; AP Lit,,
+students_file1.csv,STU10095,Daniel,Carter,10.0,Chemistry; AP Lit; English 101,,
+students_file1.csv,STU10096,Ava,White,10.0,English 101; Geometry; World History,,
+students_file1.csv,STU10097,Layla,Torres,9.0,World History; English 101; Geometry,,
+students_file1.csv,STU10098,Theodore,Hernandez,11.0,English 101; Chemistry; Algebra II; Biology,,
+students_file1.csv,STU10099,Samuel,Davis,10.0,Geometry; World History; Algebra II,,
+students_file1.csv,STU10100,Amelia,Garcia,12.0,Chemistry; Biology; Calculus,,
+students_file1.csv,STU10101,Daniel,Miller,10.0,Calculus; AP Lit; Geometry,,
+students_file1.csv,STU10102,Scarlett,Nguyen,12.0,AP Lit; World History; Chemistry,,
+students_file1.csv,STU10103,Olivia,Perez,11.0,AP Lit; Chemistry; Calculus,,
+students_file1.csv,STU10104,Olivia,Thompson,9.0,English 101; AP Lit; World History,,
+students_file1.csv,STU10105,Abigail,Young,10.0,Calculus; English 101; Biology; Chemistry,,
+students_file1.csv,STU10106,Jack,Taylor,9.0,Geometry; Biology; AP Lit; Algebra II,,
+students_file1.csv,STU10107,Mia,Taylor,12.0,Calculus; AP Lit; Algebra II,,
+students_file1.csv,STU10108,Sophia,Davis,11.0,Geometry; World History; Algebra II; Calculus,,
+students_file1.csv,STU10109,Scarlett,Smith,9.0,Biology; Calculus; World History; Geometry,,
+students_file1.csv,STU10110,Mateo,Hernandez,12.0,Calculus; World History; Geometry,,
+students_file2.csv,Hernandez,9,Algebra II; Calculus; Biology; AP Lit,,,,
+students_file2.csv,White,11,Chemistry; Biology; Algebra II; Calculus,,,,
+students_file2.csv,Gonzalez,11,Calculus; Biology; Geometry,,,,
+students_file2.csv,Martin,10,Algebra II; AP Lit; Calculus,,,,
+students_file2.csv,Harris,10,Chemistry; World History; Geometry,,,,
+students_file2.csv,Campbell,10,Algebra II; Calculus; World History; Geometry,,,,
+students_file2.csv,Rodriguez,11,Geometry; Algebra II; AP Lit; Calculus,,,,
+students_file2.csv,Davis,11,Algebra II; English 101; Geometry; Biology,,,,
+students_file2.csv,White,9,Geometry; English 101; Chemistry; World History,,,,
+students_file2.csv,Perez,10,Biology; AP Lit; Geometry; Calculus,,,,
+students_file2.csv,Rivera,12,Calculus; World History; Geometry,,,,
+students_file2.csv,Hernandez,9,English 101; Calculus; AP Lit,,,,
+students_file2.csv,Thompson,10,English 101; AP Lit; Biology,,,,
+students_file2.csv,Miller,10,Biology; English 101; Geometry; Algebra II,,,,
+students_file2.csv,Robinson,11,Calculus; English 101; Biology; Chemistry,,,,
+students_file2.csv,Torres,11,Biology; Algebra II; Geometry; AP Lit,,,,
+students_file2.csv,Ramirez,12,English 101; AP Lit; Algebra II; Chemistry,,,,
+students_file2.csv,Wright,10,World History; AP Lit; Algebra II,,,,
+students_file2.csv,White,9,AP Lit; Geometry; World History,,,,
+students_file2.csv,Walker,10,Chemistry; Biology; Algebra II,,,,
+students_file2.csv,White,12,Chemistry; Algebra II; Calculus,,,,
+students_file2.csv,Green,9,AP Lit; Algebra II; World History; Biology,,,,
+students_file2.csv,Ramirez,11,English 101; Biology; Chemistry,,,,
+students_file2.csv,White,10,Geometry; World History; English 101,,,,
+students_file2.csv,Perez,11,World History; Geometry; AP Lit; English 101,,,,
+students_file2.csv,White,12,Geometry; AP Lit; World History,,,,
+students_file2.csv,Garcia,9,Biology; Chemistry; Calculus,,,,
+students_file2.csv,Robinson,9,Calculus; Geometry; Algebra II,,,,
+students_file2.csv,Carter,10,AP Lit; Calculus; Algebra II; World History,,,,
+students_file2.csv,Robinson,11,Biology; Geometry; Algebra II; English 101,,,,
+students_file2.csv,Jones,11,Geometry; Biology; AP Lit; Algebra II,,,,
+students_file2.csv,Perez,12,Algebra II; Calculus; English 101; AP Lit,,,,
+students_file2.csv,Martin,10,English 101; AP Lit; Biology,,,,
+students_file2.csv,Baker,9,Calculus; Chemistry; Geometry,,,,
+students_file2.csv,Martinez,10,AP Lit; Algebra II; World History,,,,
+students_file2.csv,Green,11,Biology; Calculus; World History; Chemistry,,,,
+students_file2.csv,Young,12,Geometry; AP Lit; English 101; World History,,,,
+students_file2.csv,Lee,10,Calculus; Algebra II; World History; English 101,,,,
+students_file2.csv,Martin,10,Calculus; AP Lit; Geometry,,,,
+students_file2.csv,Davis,10,Geometry; Chemistry; AP Lit; Biology,,,,
+students_file2.csv,Hernandez,10,AP Lit; Calculus; English 101; World History,,,,
+students_file2.csv,White,9,Calculus; Biology; AP Lit,,,,
+students_file2.csv,Flores,10,Chemistry; World History; English 101; Algebra II,,,,
+students_file2.csv,Lee,11,AP Lit; Geometry; World History,,,,
+students_file2.csv,Garcia,11,World History; Chemistry; Calculus; Algebra II,,,,
+students_file2.csv,Ramirez,12,Calculus; Geometry; AP Lit,,,,
+students_file2.csv,Jones,11,Geometry; Biology; World History,,,,
+students_file2.csv,Walker,10,Biology; AP Lit; English 101,,,,
+students_file2.csv,Wright,10,AP Lit; Calculus; Algebra II,,,,
+students_file2.csv,Lee,10,Calculus; World History; Biology; Geometry,,,,
+students_file2.csv,Miller,10,World History; Calculus; Algebra II,,,,
+students_file2.csv,Jones,12,English 101; AP Lit; World History,,,,
+students_file2.csv,Davis,10,Chemistry; Algebra II; English 101; Biology,,,,
+students_file2.csv,White,11,Calculus; English 101; Biology; Chemistry,,,,
+students_file2.csv,Flores,12,AP Lit; English 101; Calculus,,,,
+students_file2.csv,Lopez,9,Chemistry; Biology; AP Lit; Algebra II,,,,
+students_file2.csv,Perez,11,Geometry; Biology; English 101; Chemistry,,,,
+students_file2.csv,Jones,12,Chemistry; Algebra II; English 101,,,,
+students_file2.csv,Lee,9,Geometry; Calculus; AP Lit,,,,
+students_file2.csv,Torres,12,AP Lit; Calculus; Biology,,,,
+students_file2.csv,Garcia,9,Biology; Algebra II; English 101; Geometry,,,,
+students_file2.csv,Martin,12,Calculus; AP Lit; Geometry; English 101,,,,
+students_file2.csv,Harris,9,Geometry; World History; AP Lit,,,,
+students_file2.csv,Wright,12,AP Lit; English 101; Geometry,,,,
+students_file2.csv,Hernandez,10,AP Lit; World History; Chemistry; Algebra II,,,,
+students_file2.csv,Gonzalez,10,English 101; Algebra II; AP Lit,,,,
+students_file2.csv,Garcia,11,Biology; Geometry; World History,,,,
+students_file2.csv,Walker,12,AP Lit; Calculus; World History; Geometry,,,,
+students_file2.csv,Carter,9,Biology; Geometry; AP Lit,,,,
+students_file2.csv,Rivera,12,Chemistry; Algebra II; AP Lit; Calculus,,,,
+students_file2.csv,Harris,11,English 101; AP Lit; Geometry; World History,,,,
+students_file2.csv,Martin,12,AP Lit; Geometry; Calculus; English 101,,,,
+students_file2.csv,Rivera,9,Biology; World History; Calculus,,,,
+students_file2.csv,Davis,9,Algebra II; World History; English 101; AP Lit,,,,
+students_file2.csv,Thompson,11,Geometry; World History; Chemistry,,,,
+students_file2.csv,Garcia,9,Calculus; Biology; AP Lit; Chemistry,,,,
+students_file2.csv,Jones,10,AP Lit; English 101; Geometry; Biology,,,,
+students_file2.csv,Wright,9,Algebra II; Chemistry; World History; Geometry,,,,
+students_file2.csv,Flores,12,Calculus; Geometry; Biology; English 101,,,,
+students_file2.csv,Green,11,Calculus; Biology; AP Lit,,,,
+students_file2.csv,White,11,Algebra II; Geometry; AP Lit; Chemistry,,,,
+students_file2.csv,White,10,English 101; Geometry; Chemistry,,,,
+students_file2.csv,White,12,Calculus; Algebra II; AP Lit,,,,
+students_file2.csv,Martin,10,AP Lit; World History; Biology,,,,
+students_file2.csv,Hill,12,Calculus; English 101; AP Lit; Geometry,,,,
+students_file2.csv,Harris,10,Geometry; World History; Biology; AP Lit,,,,
+students_file2.csv,Hill,10,Calculus; English 101; Geometry,,,,
+students_file2.csv,Thomas,11,Algebra II; Chemistry; Biology; AP Lit,,,,
+students_file2.csv,White,10,Calculus; English 101; World History; Algebra II,,,,
+students_file2.csv,Baker,11,Biology; World History; English 101,,,,
+students_file2.csv,Carter,9,Algebra II; Geometry; World History; English 101,,,,
+students_file2.csv,Campbell,12,Geometry; AP Lit; World History; Algebra II,,,,
+students_file2.csv,Perez,11,AP Lit; Algebra II; Biology; Geometry,,,,
+students_file2.csv,Carter,9,Geometry; Calculus; Biology; World History,,,,
+students_file2.csv,Perez,12,Algebra II; Chemistry; English 101,,,,
+students_file2.csv,Taylor,9,Geometry; World History; AP Lit,,,,
+students_file2.csv,Martin,10,Biology; AP Lit; English 101; Geometry,,,,
+students_file2.csv,Torres,11,AP Lit; Chemistry; World History; Geometry,,,,
+students_file2.csv,Hernandez,10,Calculus; World History; Algebra II; Biology,,,,
+students_file2.csv,Jones,11,Calculus; Chemistry; Geometry; World History,,,,
+students_file2.csv,Carter,9,English 101; World History; AP Lit; Calculus,,,,
+students_file2.csv,Hernandez,10,English 101; Biology; Chemistry,,,,
+students_file2.csv,Miller,10,Algebra II; Geometry; Biology; World History,,,,
+students_file2.csv,Perez,11,Algebra II; World History; Geometry; AP Lit,,,,
+students_file2.csv,Miller,12,AP Lit; Biology; Chemistry; World History,,,,
+students_file2.csv,Gonzalez,10,Chemistry; Algebra II; World History; Geometry,,,,
+students_file2.csv,White,11,AP Lit; English 101; Biology; Geometry,,,,
+students_file2.csv,Hernandez,12,Algebra II; Chemistry; AP Lit; Geometry,,,,
+students_file2.csv,Hernandez,11,English 101; Biology; AP Lit,,,,
+students_file2.csv,White,9,Geometry; Calculus; AP Lit; Algebra II,,,,
+students.file4.csv,STU0201,Emma,Smith,,,11.0,"Science, Geography, Art"
+students.file4.csv,STU0202,Emma,Moore,,,9.0,"Art, English, Math"
+students.file4.csv,STU0203,Liam,Williams,,,10.0,"Science, Art, Math"
+students.file4.csv,STU0204,Evelyn,Miller,,,12.0,"Science, English, History"
+students.file4.csv,STU0205,Liam,Garcia,,,12.0,"History, Geography, Science"
+students.file4.csv,STU0206,Elijah,Hernandez,,,9.0,"Math, English, Geography"
+students.file4.csv,STU0207,Amelia,Lopez,,,11.0,"Math, English, Geography"
+students.file4.csv,STU0208,Benjamin,Williams,,,11.0,"Geography, Art, History"
+students.file4.csv,STU0209,Alexander,Miller,,,9.0,"Math, Science, History"
+students.file4.csv,STU0210,Ava,Lopez,,,12.0,"History, English, Art"
+students.file4.csv,STU0211,Evelyn,Rodriguez,,,9.0,"Art, Geography, History"
+students.file4.csv,STU0212,Oliver,Gonzalez,,,10.0,"Science, English, Math"
+students.file4.csv,STU0213,Charlotte,Williams,,,10.0,"Math, Geography, History"
+students.file4.csv,STU0214,Isabella,Davis,,,10.0,"Science, Art, Geography"
+students.file4.csv,STU0215,Lucas,Martinez,,,10.0,"Art, Science, English"
+students.file4.csv,STU0216,Benjamin,Taylor,,,10.0,"Geography, English, History"
+students.file4.csv,STU0217,Alexander,Moore,,,12.0,"History, Science, English"
+students.file4.csv,STU0218,Evelyn,Rodriguez,,,9.0,"Math, Geography, Art"
+students.file4.csv,STU0219,Evelyn,Thomas,,,9.0,"History, English, Science"
+students.file4.csv,STU0220,Benjamin,Wilson,,,12.0,"History, Art, English"
+students.file4.csv,STU0221,James,Garcia,,,9.0,"Geography, Science, Art"
+students.file4.csv,STU0222,Charlotte,Davis,,,12.0,"History, Science, Geography"
+students.file4.csv,STU0223,Lucas,Wilson,,,9.0,"History, Math, Geography"
+students.file4.csv,STU0224,Sophia,Martin,,,10.0,"English, Math, Science"
+students.file4.csv,STU0225,Mia,Jones,,,10.0,"Math, History, English"
+students.file4.csv,STU0226,William,Thomas,,,9.0,"Art, History, Math"
+students.file4.csv,STU0227,Elijah,Taylor,,,10.0,"Art, Science, Math"
+students.file4.csv,STU0228,Oliver,Taylor,,,11.0,"Math, Art, Science"
+students.file4.csv,STU0229,Evelyn,Hernandez,,,10.0,"Geography, Science, Math"
+students.file4.csv,STU0230,Benjamin,Rodriguez,,,10.0,"English, History, Science"
+students.file4.csv,STU0231,Amelia,Brown,,,12.0,"Science, Art, English"
+students.file4.csv,STU0232,Alexander,Garcia,,,12.0,"Math, English, History"
+students.file4.csv,STU0233,Lucas,Gonzalez,,,12.0,"Math, Geography, English"
+students.file4.csv,STU0234,Alexander,Lopez,,,11.0,"Art, Math, Science"
+students.file4.csv,STU0235,Olivia,Davis,,,9.0,"Math, History, Science"
+students.file4.csv,STU0236,Noah,Taylor,,,10.0,"Science, History, Art"
+students.file4.csv,STU0237,Sophia,Martinez,,,11.0,"Science, History, Math"
+students.file4.csv,STU0238,William,Williams,,,10.0,"Geography, Art, Math"
+students.file4.csv,STU0239,Sophia,Davis,,,10.0,"Art, History, Science"
+students.file4.csv,STU0240,Alexander,Taylor,,,10.0,"English, Science, Geography"
+students.file4.csv,STU0241,Amelia,Martin,,,10.0,"Art, Math, Geography"
+students.file4.csv,STU0242,Elijah,Miller,,,10.0,"Geography, Art, Math"
+students.file4.csv,STU0243,James,Hernandez,,,12.0,"Geography, Science, Art"
+students.file4.csv,STU0244,William,Lopez,,,9.0,"Math, Geography, English"
+students.file4.csv,STU0245,Sophia,Hernandez,,,11.0,"Art, Science, History"
+students.file4.csv,STU0246,Liam,Smith,,,11.0,"History, English, Art"
+students.file4.csv,STU0247,Noah,Thomas,,,10.0,"Science, English, History"
+students.file4.csv,STU0248,Amelia,Rodriguez,,,11.0,"English, Art, Science"
+students.file4.csv,STU0249,Olivia,Wilson,,,12.0,"Science, History, English"
+students.file4.csv,STU0250,Benjamin,Jones,,,9.0,"History, Geography, Art"
+students.file4.csv,STU0251,Evelyn,Wilson,,,12.0,"Math, Science, History"
+students.file4.csv,STU0252,Lucas,Garcia,,,9.0,"History, English, Science"
+students.file4.csv,STU0253,Elijah,Jones,,,12.0,"English, Science, Geography"
+students.file4.csv,STU0254,Benjamin,Martin,,,10.0,"Science, History, Geography"
+students.file4.csv,STU0255,Sophia,Smith,,,12.0,"Science, English, History"
+students.file4.csv,STU0256,Ava,Gonzalez,,,10.0,"Art, History, Math"
+students.file4.csv,STU0257,Benjamin,Williams,,,10.0,"Art, History, Science"
+students.file4.csv,STU0258,Alexander,Rodriguez,,,10.0,"Science, History, Math"
+students.file4.csv,STU0259,Lucas,Rodriguez,,,11.0,"Geography, English, Science"
+students.file4.csv,STU0260,Henry,Hernandez,,,10.0,"History, English, Art"
+students.file4.csv,STU0261,Emma,Davis,,,10.0,"English, Geography, Math"
+students.file4.csv,STU0262,Henry,Smith,,,10.0,"Math, English, Geography"
+students.file4.csv,STU0263,Sophia,Thomas,,,10.0,"Science, Math, Geography"
+students.file4.csv,STU0264,Oliver,Rodriguez,,,12.0,"History, Geography, English"
+students.file4.csv,STU0265,James,Martin,,,12.0,"Math, Geography, History"
+students.file4.csv,STU0266,Elijah,Martin,,,10.0,"Art, Science, History"
+students.file4.csv,STU0267,Lucas,Thomas,,,12.0,"Math, History, English"
+students.file4.csv,STU0268,Emma,Moore,,,12.0,"Geography, History, Science"
+students.file4.csv,STU0269,Liam,Martinez,,,12.0,"Art, Science, English"
+students.file4.csv,STU0270,Liam,Williams,,,9.0,"Geography, English, History"
+students.file4.csv,STU0271,Olivia,Rodriguez,,,9.0,"Math, Science, History"
+students.file4.csv,STU0272,Mia,Gonzalez,,,12.0,"Math, History, Geography"
+students.file4.csv,STU0273,Sophia,Garcia,,,9.0,"Art, History, Geography"
+students.file4.csv,STU0274,Mia,Wilson,,,9.0,"Art, English, Science"
+students.file4.csv,STU0275,Olivia,Hernandez,,,10.0,"Science, Geography, Math"
+students.file4.csv,STU0276,Amelia,Wilson,,,10.0,"Science, History, English"
+students.file4.csv,STU0277,Olivia,Moore,,,12.0,"Math, Geography, History"
+students.file4.csv,STU0278,Oliver,Brown,,,11.0,"Science, History, Art"
+students.file4.csv,STU0279,Noah,Smith,,,11.0,"English, Math, Science"
+students.file4.csv,STU0280,Elijah,Hernandez,,,12.0,"English, Art, History"
+students.file4.csv,STU0281,Oliver,Hernandez,,,11.0,"Art, History, Science"
+students.file4.csv,STU0282,Evelyn,Hernandez,,,11.0,"History, English, Geography"
+students.file4.csv,STU0283,James,Taylor,,,9.0,"Art, Math, English"
+students.file4.csv,STU0284,Elijah,Smith,,,11.0,"Geography, History, English"
+students.file4.csv,STU0285,Lucas,Martinez,,,11.0,"Geography, Science, Math"
+students.file4.csv,STU0286,Lucas,Smith,,,10.0,"Geography, English, Math"
+students.file4.csv,STU0287,Charlotte,Hernandez,,,9.0,"English, Science, Geography"
+students.file4.csv,STU0288,Amelia,Moore,,,12.0,"History, Science, English"
+students.file4.csv,STU0289,Emma,Gonzalez,,,11.0,"Geography, Science, History"
+students.file4.csv,STU0290,Evelyn,Moore,,,10.0,"Art, Math, Science"
+students.file4.csv,STU0291,James,Rodriguez,,,9.0,"Art, Geography, History"
+students.file4.csv,STU0292,Oliver,Hernandez,,,11.0,"Art, History, Science"
+students.file4.csv,STU0293,William,Garcia,,,9.0,"History, Science, English"
+students.file4.csv,STU0294,Sophia,Gonzalez,,,10.0,"Geography, History, Math"
+students.file4.csv,STU0295,Noah,Williams,,,11.0,"Art, Geography, History"
+students.file4.csv,STU0296,Sophia,Hernandez,,,11.0,"Science, Art, English"
+students.file4.csv,STU0297,Benjamin,Taylor,,,11.0,"Science, English, History"
+students.file4.csv,STU0298,William,Jones,,,10.0,"English, Math, History"
+students.file4.csv,STU0299,Harper,Jones,,,9.0,"Science, Art, English"
+students.file4.csv,STU0300,Oliver,Jones,,,9.0,"Math, Geography, Science"
+students.file4.csv,STU0301,Liam,Martinez,,,9.0,"Art, Math, History"
+students.file4.csv,STU0302,Elijah,Smith,,,10.0,"Science, Art, Geography"
+students.file4.csv,STU0303,Evelyn,Rodriguez,,,9.0,"Math, Science, Geography"
+students.file4.csv,STU0304,Henry,Taylor,,,10.0,"Science, Math, Geography"
+students.file4.csv,STU0305,Amelia,Taylor,,,11.0,"Geography, History, English"
+students.file3.csv,STU0201,Emma,Smith,,,11.0,"Science, Geography, Art"
+students.file3.csv,STU0202,Emma,Moore,,,9.0,"Art, English, Math"
+students.file3.csv,STU0203,Liam,Williams,,,10.0,"Science, Art, Math"
+students.file3.csv,STU0204,Evelyn,Miller,,,12.0,"Science, English, History"
+students.file3.csv,STU0205,Liam,Garcia,,,12.0,"History, Geography, Science"
+students.file3.csv,STU0206,Elijah,Hernandez,,,9.0,"Math, English, Geography"
+students.file3.csv,STU0207,Amelia,Lopez,,,11.0,"Math, English, Geography"
+students.file3.csv,STU0208,Benjamin,Williams,,,11.0,"Geography, Art, History"
+students.file3.csv,STU0209,Alexander,Miller,,,9.0,"Math, Science, History"
+students.file3.csv,STU0210,Ava,Lopez,,,12.0,"History, English, Art"
+students.file3.csv,STU0211,Evelyn,Rodriguez,,,9.0,"Art, Geography, History"
+students.file3.csv,STU0212,Oliver,Gonzalez,,,10.0,"Science, English, Math"
+students.file3.csv,STU0213,Charlotte,Williams,,,10.0,"Math, Geography, History"
+students.file3.csv,STU0214,Isabella,Davis,,,10.0,"Science, Art, Geography"
+students.file3.csv,STU0215,Lucas,Martinez,,,10.0,"Art, Science, English"
+students.file3.csv,STU0216,Benjamin,Taylor,,,10.0,"Geography, English, History"
+students.file3.csv,STU0217,Alexander,Moore,,,12.0,"History, Science, English"
+students.file3.csv,STU0218,Evelyn,Rodriguez,,,9.0,"Math, Geography, Art"
+students.file3.csv,STU0219,Evelyn,Thomas,,,9.0,"History, English, Science"
+students.file3.csv,STU0220,Benjamin,Wilson,,,12.0,"History, Art, English"
+students.file3.csv,STU0221,James,Garcia,,,9.0,"Geography, Science, Art"
+students.file3.csv,STU0222,Charlotte,Davis,,,12.0,"History, Science, Geography"
+students.file3.csv,STU0223,Lucas,Wilson,,,9.0,"History, Math, Geography"
+students.file3.csv,STU0224,Sophia,Martin,,,10.0,"English, Math, Science"
+students.file3.csv,STU0225,Mia,Jones,,,10.0,"Math, History, English"
+students.file3.csv,STU0226,William,Thomas,,,9.0,"Art, History, Math"
+students.file3.csv,STU0227,Elijah,Taylor,,,10.0,"Art, Science, Math"
+students.file3.csv,STU0228,Oliver,Taylor,,,11.0,"Math, Art, Science"
+students.file3.csv,STU0229,Evelyn,Hernandez,,,10.0,"Geography, Science, Math"
+students.file3.csv,STU0230,Benjamin,Rodriguez,,,10.0,"English, History, Science"
+students.file3.csv,STU0231,Amelia,Brown,,,12.0,"Science, Art, English"
+students.file3.csv,STU0232,Alexander,Garcia,,,12.0,"Math, English, History"
+students.file3.csv,STU0233,Lucas,Gonzalez,,,12.0,"Math, Geography, English"
+students.file3.csv,STU0234,Alexander,Lopez,,,11.0,"Art, Math, Science"
+students.file3.csv,STU0235,Olivia,Davis,,,9.0,"Math, History, Science"
+students.file3.csv,STU0236,Noah,Taylor,,,10.0,"Science, History, Art"
+students.file3.csv,STU0237,Sophia,Martinez,,,11.0,"Science, History, Math"
+students.file3.csv,STU0238,William,Williams,,,10.0,"Geography, Art, Math"
+students.file3.csv,STU0239,Sophia,Davis,,,10.0,"Art, History, Science"
+students.file3.csv,STU0240,Alexander,Taylor,,,10.0,"English, Science, Geography"
+students.file3.csv,STU0241,Amelia,Martin,,,10.0,"Art, Math, Geography"
+students.file3.csv,STU0242,Elijah,Miller,,,10.0,"Geography, Art, Math"
+students.file3.csv,STU0243,James,Hernandez,,,12.0,"Geography, Science, Art"
+students.file3.csv,STU0244,William,Lopez,,,9.0,"Math, Geography, English"
+students.file3.csv,STU0245,Sophia,Hernandez,,,11.0,"Art, Science, History"
+students.file3.csv,STU0246,Liam,Smith,,,11.0,"History, English, Art"
+students.file3.csv,STU0247,Noah,Thomas,,,10.0,"Science, English, History"
+students.file3.csv,STU0248,Amelia,Rodriguez,,,11.0,"English, Art, Science"
+students.file3.csv,STU0249,Olivia,Wilson,,,12.0,"Science, History, English"
+students.file3.csv,STU0250,Benjamin,Jones,,,9.0,"History, Geography, Art"
+students.file3.csv,STU0251,Evelyn,Wilson,,,12.0,"Math, Science, History"
+students.file3.csv,STU0252,Lucas,Garcia,,,9.0,"History, English, Science"
+students.file3.csv,STU0253,Elijah,Jones,,,12.0,"English, Science, Geography"
+students.file3.csv,STU0254,Benjamin,Martin,,,10.0,"Science, History, Geography"
+students.file3.csv,STU0255,Sophia,Smith,,,12.0,"Science, English, History"
+students.file3.csv,STU0256,Ava,Gonzalez,,,10.0,"Art, History, Math"
+students.file3.csv,STU0257,Benjamin,Williams,,,10.0,"Art, History, Science"
+students.file3.csv,STU0258,Alexander,Rodriguez,,,10.0,"Science, History, Math"
+students.file3.csv,STU0259,Lucas,Rodriguez,,,11.0,"Geography, English, Science"
+students.file3.csv,STU0260,Henry,Hernandez,,,10.0,"History, English, Art"
+students.file3.csv,STU0261,Emma,Davis,,,10.0,"English, Geography, Math"
+students.file3.csv,STU0262,Henry,Smith,,,10.0,"Math, English, Geography"
+students.file3.csv,STU0263,Sophia,Thomas,,,10.0,"Science, Math, Geography"
+students.file3.csv,STU0264,Oliver,Rodriguez,,,12.0,"History, Geography, English"
+students.file3.csv,STU0265,James,Martin,,,12.0,"Math, Geography, History"
+students.file3.csv,STU0266,Elijah,Martin,,,10.0,"Art, Science, History"
+students.file3.csv,STU0267,Lucas,Thomas,,,12.0,"Math, History, English"
+students.file3.csv,STU0268,Emma,Moore,,,12.0,"Geography, History, Science"
+students.file3.csv,STU0269,Liam,Martinez,,,12.0,"Art, Science, English"
+students.file3.csv,STU0270,Liam,Williams,,,9.0,"Geography, English, History"
+students.file3.csv,STU0271,Olivia,Rodriguez,,,9.0,"Math, Science, History"
+students.file3.csv,STU0272,Mia,Gonzalez,,,12.0,"Math, History, Geography"
+students.file3.csv,STU0273,Sophia,Garcia,,,9.0,"Art, History, Geography"
+students.file3.csv,STU0274,Mia,Wilson,,,9.0,"Art, English, Science"
+students.file3.csv,STU0275,Olivia,Hernandez,,,10.0,"Science, Geography, Math"
+students.file3.csv,STU0276,Amelia,Wilson,,,10.0,"Science, History, English"
+students.file3.csv,STU0277,Olivia,Moore,,,12.0,"Math, Geography, History"
+students.file3.csv,STU0278,Oliver,Brown,,,11.0,"Science, History, Art"
+students.file3.csv,STU0279,Noah,Smith,,,11.0,"English, Math, Science"
+students.file3.csv,STU0280,Elijah,Hernandez,,,12.0,"English, Art, History"
+students.file3.csv,STU0281,Oliver,Hernandez,,,11.0,"Art, History, Science"
+students.file3.csv,STU0282,Evelyn,Hernandez,,,11.0,"History, English, Geography"
+students.file3.csv,STU0283,James,Taylor,,,9.0,"Art, Math, English"
+students.file3.csv,STU0284,Elijah,Smith,,,11.0,"Geography, History, English"
+students.file3.csv,STU0285,Lucas,Martinez,,,11.0,"Geography, Science, Math"
+students.file3.csv,STU0286,Lucas,Smith,,,10.0,"Geography, English, Math"
+students.file3.csv,STU0287,Charlotte,Hernandez,,,9.0,"English, Science, Geography"
+students.file3.csv,STU0288,Amelia,Moore,,,12.0,"History, Science, English"
+students.file3.csv,STU0289,Emma,Gonzalez,,,11.0,"Geography, Science, History"
+students.file3.csv,STU0290,Evelyn,Moore,,,10.0,"Art, Math, Science"
+students.file3.csv,STU0291,James,Rodriguez,,,9.0,"Art, Geography, History"
+students.file3.csv,STU0292,Oliver,Hernandez,,,11.0,"Art, History, Science"
+students.file3.csv,STU0293,William,Garcia,,,9.0,"History, Science, English"
+students.file3.csv,STU0294,Sophia,Gonzalez,,,10.0,"Geography, History, Math"
+students.file3.csv,STU0295,Noah,Williams,,,11.0,"Art, Geography, History"
+students.file3.csv,STU0296,Sophia,Hernandez,,,11.0,"Science, Art, English"
+students.file3.csv,STU0297,Benjamin,Taylor,,,11.0,"Science, English, History"
+students.file3.csv,STU0298,William,Jones,,,10.0,"English, Math, History"
+students.file3.csv,STU0299,Harper,Jones,,,9.0,"Science, Art, English"
+students.file3.csv,STU0300,Oliver,Jones,,,9.0,"Math, Geography, Science"
+students.file3.csv,STU0301,Liam,Martinez,,,9.0,"Art, Math, History"
+students.file3.csv,STU0302,Elijah,Smith,,,10.0,"Science, Art, Geography"
+students.file3.csv,STU0303,Evelyn,Rodriguez,,,9.0,"Math, Science, Geography"
+students.file3.csv,STU0304,Henry,Taylor,,,10.0,"Science, Math, Geography"
+students.file3.csv,STU0305,Amelia,Taylor,,,11.0,"Geography, History, English"
